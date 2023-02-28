@@ -1,0 +1,22 @@
+{
+  "name": "jordan-walker-webserver",
+  "version": "1.0.0",
+  "description": "assignment a01",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-jwalkerw.git"
+  },
+  "author": "jwalkerw",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-jwalkerw/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-jwalkerw#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
