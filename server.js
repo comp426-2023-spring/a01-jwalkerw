@@ -7,7 +7,7 @@ var parseArgs = require('minimist');
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
 var argv = parseArgs(process.argv.slice(2));
 // Define a const `port` using the argument from the command line. 
-const port = argv['port'];
+const port = argv.port;
 // Make this const default to port 3000 if there is no argument given for `--port`.
 port = port || 3000;
 // Use the fs module to create an arrow function using `fs.readFile`.
